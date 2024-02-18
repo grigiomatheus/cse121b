@@ -78,11 +78,12 @@ button {
 }
 
 #weather-info{
-    text-align: center;
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1.5rem;
+   text-align: center;
+}
+
+.material-icons{
+    display: flex;
 }

@@ -82,10 +82,12 @@ searchButton.addEventListener("click", (event) => {
 
 clearButton.addEventListener("click", (event) =>{
     cityInput.value = "";
-    cityName.remove();
-    temperatureCelsius.remove();
-    temperatureFahrenheit.remove();
-    weatherDescription.remove();
+    cityName.innerHTML = "";
+    temperatureCelsius.innerHTML = "";
+    temperatureFahrenheit.innerHTML = "";
+    weatherDescription.innerHTML = "";
+
+    cityInput.focus();
 });
 
 const getWeatherData = async(city) => {
