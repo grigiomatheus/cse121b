@@ -82,7 +82,7 @@ button {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     padding-top: 1.5rem;
 }
