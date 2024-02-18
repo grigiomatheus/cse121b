@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Weather API</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/final-project.css">
+    <script src="scripts/final-project.js" defer></script>
+</head>
+
+<body>
+    <header class="Title">
+        <h1>Welcome to Javascript Weather API</h1>
+    </header>
+    <main>
+        <div id="container">
+            <div class="form">
+                <h3>Check the weather of a city:</h3>
+                <div class="input-container">
+                    <div class="input">
+                        <input type="text" placeholder="Choose a city" id="city-input">
+                        <button id="search"><i class="material-icons">search</i></button>
+                        <button id="clear"><i class="material-icons">clear</button>
+                    </div>
+                    <div id="autocomplete-dropdown" class="autocomplete-dropdown"></div>
+                </div>
+                <div id="weather-info">
+                    <h2 id="city-name"></h2>
+                    <span id="celsius"></span>
+                    <span id="fahrenheit"></span>
+                    <span id="description"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
